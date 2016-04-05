@@ -1,4 +1,4 @@
-# Testing Angular Controllers, Directives and Services
+# Testing Angular: Controllers, Directives, Services, and Integration
 ## Instructor: [Dan Wellman][instructor url]
 
 
@@ -6,7 +6,7 @@ Unit testing is a key tool for ensuring the correctness of our software. Angular
 
 If you haven't unit tested an Angular application before, you might not be aware that there are some extra features that we can use to make testing easier, such as hooking into Angular's dependency injection, and using angular-mocks for a range of test-friendly utilities.
 
-In these Coffee Break Courses, designed to teach a new skill or concept in a single sitting, Envato Tuts+ instructor Dan Wellman will show you how to take an existing Angular app and add tests for its controller, services and directives.
+In these Coffee Break Courses, designed to teach a new skill or concept in a single sitting, Envato Tuts+ instructor Dan Wellman will show you how to take an existing Angular app and add tests for its controller, services and directives. A final course will teach you how to do integration testing with Protractor and Cucumber.
 
 
 ## Source Files Description
@@ -22,10 +22,11 @@ To contribute to this app, please visit Dan's [original repository for this proj
 
 ------
 
-These are source files for the Tuts+ courses: 
+These are source files for the Tuts+ Coffee Break courses: 
  - [Testing Angular Controllers](https://code.tutsplus.com/courses/testing-angular-controllers)
- - (coming soon) [Testing Angular Directives](https://code.tutsplus.com/courses/testing-angular-directives)
- - (coming soon) [Testing Angular Services](https://code.tutsplus.com/courses/testing-angular-services)
+ - [Testing Angular Directives](https://code.tutsplus.com/courses/testing-angular-directives)
+ - [Testing Angular Services](https://code.tutsplus.com/courses/testing-angular-services)
+ - [Testing Angular End-to-End With Protractor and Cucumber](https://code.tutsplus.com/courses/testing-angular-end-to-end-with-protractor-and-cucumber)
 
 Available on [Tuts+](https://tutsplus.com). Teaching skills to millions worldwide.
 
