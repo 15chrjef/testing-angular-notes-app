@@ -13,7 +13,7 @@
                 <div class="logo"></div>
                 <h1>Notes app</h1>
                 <div class="toolbar">
-                    <button data-ng-disabled="!edited" data-ng-click="preSaveNote()">Save note</button>
+                    <button id="save" data-ng-disabled="!edited" data-ng-click="preSaveNote()">Save note</button>
                     <button data-ng-click="newNote()">New note</button>
                     <button data-ng-click="deleteNote($event)">Delete note</button>
                 </div>
@@ -22,7 +22,7 @@
             <aside>
                 <ul data-ng-if="notes.length">
                     <li data-ng-repeat="note in notes">
-                        <a href="javascript:void(0)" id="{{ note.id }}" data-ng-class="{ active: $index === 0 }" data-ng-click="openNote($event)">{{ note.title }}</a>
+                        <a href="javascript:void(0)" id="{{ note.id }}" data-ng-class="{ active: $index === 0 }" data-ng-click="openNote($event)" title="{{note.title}}">{{ note.title | truncate: 30 }}</a>
                     </li>
                 </ul>
 
@@ -31,7 +31,7 @@
 
             <main>
                 <form>
-                    <textarea ng-model="currentNote.content" enable-save-on-edit></textarea>
+                    <textarea data-ng-model="currentNote.content" enable-save-on-edit></textarea>
                 </form>
             </main>
         </section>
@@ -50,5 +50,6 @@
     <script src="js/controllers/notes.js"></script>
     <script src="js/directives/enableSaveOnEdit.js"></script>
     <script src="js/directives/modal.js"></script>
+    <script src="js/filters/truncate.js"></script>
 </body>
 </html>
