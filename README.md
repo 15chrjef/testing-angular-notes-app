@@ -17,15 +17,25 @@ This repository contains a simple app for writing plain-text notes. There are br
  - Angular controllers
  - Angular directives
  - Angular services
+ - Angular filters
+ - Angular components
+ - End-to-end testing
 
 To contribute to this app, please visit Dan's [original repository for this project](https://github.com/danwellman/notes).
 
 ------
 
-These are source files for the Tuts+ Coffee Break courses: 
+These are source files for the Envato Tuts+ course:
+
+ - [Angular Testing Inside Out](https://code.tutsplus.com/courses/angular-testing-inside-out)
+ 
+ 
+As well as for the Coffee Break courses: 
  - [Testing Angular Controllers](https://code.tutsplus.com/courses/testing-angular-controllers)
  - [Testing Angular Directives](https://code.tutsplus.com/courses/testing-angular-directives)
  - [Testing Angular Services](https://code.tutsplus.com/courses/testing-angular-services)
+ - [Testing Angular Filters](https://code.tutsplus.com/courses/testing-angular-filters)
+ - [Testing Angular Components](https://code.tutsplus.com/courses/testing-angular-components)
  - [Testing Angular End-to-End With Protractor and Cucumber](https://code.tutsplus.com/courses/testing-angular-end-to-end-with-protractor-and-cucumber)
 
 Available on [Tuts+](https://tutsplus.com). Teaching skills to millions worldwide.
